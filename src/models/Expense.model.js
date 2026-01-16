@@ -6,10 +6,6 @@ const { sequelize } = require('../db.js');
 const Expense = sequelize.define(
   'Expense',
   {
-    userId: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-    },
     spentAt: {
       type: DataTypes.DATE,
       allowNull: false,
